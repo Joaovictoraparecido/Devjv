@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.portfolio {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    text-align: center;
+}
+
+.cover h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.cover p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+button {
+    background-color: rgb(0, 255, 64);
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.portfolio-section {
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+footer button {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Adicione estas novas regras ao final do seu arquivo CSS */
+
+.about-section, .resume-section {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.project, .project-reverse {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.project img, .project-reverse img {
+    max-width: 50%;
+}
+
+.project .description, .project-reverse .description {
+    max-width: 40%;
+    text-align: left;
+}
+
+.project h3, .project-reverse h3 {
+    margin-top: 0;
+}
+
+.resume-section {
+    background-color: black;
+    color: white;
+}
+
+.resume-section h2, .resume-section p {
+    color: white;
+}
+
+.resume-section p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
